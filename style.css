@@ -52,26 +52,20 @@ li {
     height: 500px;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #hero .hero-container {
     color: white;
     font-size: 22px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    padding: 20px;
-    border-radius: 25px;
 }
 
 .btnPrijava {
@@ -81,7 +75,6 @@ li {
     color: white;
     border-radius: 10px;
     border: none;
-    font-weight: bold;
     font-size: 16px;
 }
 
@@ -93,8 +86,8 @@ li {
     width: 1280px;
     padding-top: 70px;
     padding-bottom: 70px;
+    margin: auto;
 }
-
 
 .lorem {
     text-align: center;
@@ -103,6 +96,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+    font-weight: 400;
 }
 
 .btnSaznajVise {
@@ -114,8 +108,88 @@ li {
     border: none;
     font-weight: bold;
     font-size: 16px;
-    margin-left: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 
+* {
+    box-sizing: border-box;
+  }
 
+.more-cards {
+    height: 320px;
+    margin-bottom: 20px;
+}
 
+.column {
+    width: 305px;
+    float: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.card {
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    height: 250px;
+}
+  
+.speakers {
+    width: 100%;
+    height: 250px;
+}
+
+.calendar {
+    width: 100%;
+    height: 250px;
+}
+
+.partner {
+    width: 100%;
+    height: 250px;
+}
+  
+.last-year {
+    width: 100%;
+    background-color: #efefef;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.last-year .foi2019 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.last-year_inner {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#col1 {
+    width: 50%;
+    float: left;
+    padding-right: 150px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer_img {
+    width: 100%;
+    float: right;
+    height: 350px;
+}
+
+.footer_columns {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
