@@ -27,7 +27,7 @@ const More = () => {
                     Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
                     undoubtable source.
                 </p>
-                <Link className="btn"
+                <Link className="Btn"
                     to="/#">{links.more}
                 </Link>
             </div>

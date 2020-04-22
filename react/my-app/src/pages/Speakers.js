@@ -4,12 +4,14 @@ const Speakers = () => {
     return (
         <>
             <h1 class="PageTitle">Sudionici</h1>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
-            <InfoBoxSpeakers></InfoBoxSpeakers>
+            <section className="section-events">
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+                <InfoBoxSpeakers></InfoBoxSpeakers>
+            </section>
         </>
     );
 }

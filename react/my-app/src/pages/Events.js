@@ -5,12 +5,14 @@ const Events = () => {
     return (
         <>
             <h1 class="PageTitle">Događanja</h1>
-            <InfoboxEvents></InfoboxEvents>
-            <InfoboxEvents></InfoboxEvents>
-            <InfoboxEvents></InfoboxEvents>
-            <InfoboxEvents></InfoboxEvents>
-            <InfoboxEvents></InfoboxEvents>
-            <InfoboxEvents></InfoboxEvents>
+            <section className="section-events">
+                <InfoboxEvents></InfoboxEvents>
+                <InfoboxEvents></InfoboxEvents>
+                <InfoboxEvents></InfoboxEvents>
+                <InfoboxEvents></InfoboxEvents>
+                <InfoboxEvents></InfoboxEvents>
+                <InfoboxEvents></InfoboxEvents>
+            </section>
         </>
     );
 }

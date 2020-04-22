@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 class="SectionHero__Title">Tjedan karijera</h1>
                 <span class="SectionHero__Organizer">FOI</span>
                 <p class="SectionHero__Date">20.10.2020. - 26.10.2020.</p>
-                <Link className="btn"
+                <Link className="Btn"
                     to="/#">{links.log_in}
                 </Link>
             </div>
