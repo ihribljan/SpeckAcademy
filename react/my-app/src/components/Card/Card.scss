@@ -1,14 +1,12 @@
- 
-  .cards-container {
+ .CardsContainer {
     width: 1280px;
     margin: 0 auto;
   
     &::after {
       clear: both;
     }
-  }
   
-  .card {
+  &__Card {
     width: calc(25% - 11.25px);
     margin-right: 15px;
     margin-bottom: 40px;
@@ -27,12 +25,12 @@
       margin-right: 0;
     }
   
-    figure {
+    .CardsContainer__Figure {
       width: 100%;
       height: 250px;
       margin-bottom: 25px;
   
-      img {
+      .CardsContainer__Img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -40,8 +38,9 @@
     }
   }
   
-  .card__title {
+  .CardsContainer__Title {
     font-size: 25px;
     font-weight: 700;
     text-align: center;
   }
+}

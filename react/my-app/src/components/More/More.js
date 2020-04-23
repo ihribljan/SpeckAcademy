@@ -17,9 +17,9 @@ const links = {
 
 const More = () => {
     return (
-        <section class="SectionMore">
-            <div class="SectionMore__About">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+        <section className="SectionMore">
+            <div className="SectionMore__About">
+                <p className="SectionMore__Description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                     classical
                     Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
                     Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from

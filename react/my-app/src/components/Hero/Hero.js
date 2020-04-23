@@ -9,11 +9,11 @@ const links = {
 
 const Hero = () => {
     return (
-        <section class="SectionHero">
-            <div class="SectionHero__DataContainer">
-                <h1 class="SectionHero__Title">Tjedan karijera</h1>
-                <span class="SectionHero__Organizer">FOI</span>
-                <p class="SectionHero__Date">20.10.2020. - 26.10.2020.</p>
+        <section className="SectionHero">
+            <div className="SectionHero__DataContainer">
+                <h1 className="SectionHero__Title">Tjedan karijera</h1>
+                <span className="SectionHero__Organizer">FOI</span>
+                <p className="SectionHero__Date">20.10.2020. - 26.10.2020.</p>
                 <Link className="Btn"
                     to="/#">{links.log_in}
                 </Link>

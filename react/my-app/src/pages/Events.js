@@ -5,7 +5,7 @@ const Events = () => {
     return (
         <>
             <h1 class="PageTitle">Događanja</h1>
-            <section className="section-events">
+            <section className="SectionEvents">
                 <InfoboxEvents></InfoboxEvents>
                 <InfoboxEvents></InfoboxEvents>
                 <InfoboxEvents></InfoboxEvents>

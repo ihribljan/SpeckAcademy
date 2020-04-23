@@ -3,14 +3,14 @@ import '../Card/Card.scss';
 
 const Card = (props) => {
     return (
-        <div class="cards-container">
-            <a href="/#" className="card">
-                <figure className="figure">
-                    <img className="img"
+        <div className="CardsContainer">
+            <a href="/#" className="CardsContainer__Card">
+                <figure className="CardsContainer__Figure">
+                    <img className="CardsContainer__Img"
                         src={props.image}
                         alt={props.alt}
                     />
-                    <p class="card__title">{props.children}</p>
+                    <p className="CardsContainer__Title">{props.children}</p>
                 </figure>
             </a>
         </div>

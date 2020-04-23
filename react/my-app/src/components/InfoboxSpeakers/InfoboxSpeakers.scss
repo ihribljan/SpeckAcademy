@@ -1,21 +1,20 @@
-/* Section Events */
-.section-events {
+.SectionEvents {
   display: block;
   max-width: 350px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.section-events .info-box {
+.SectionEvents .InfoBox {
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 576px){
-  .section-events .info-box {
+  .SectionEvents .InfoBox {
       margin: inherit;
   } 
 
-  .section-events {
+  .SectionEvents {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
@@ -24,27 +23,27 @@
 }
 
 @media only screen and (min-width: 768px){
-  .section-events {
+  .SectionEvents {
       grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media only screen and (min-width: 1024px){
-  .section-events {
+  .SectionEvents {
       gap: 30px;
       padding: 0;
   }
 }
 
 /* Info Box - Component */
-.info-box {
+.InfoBox {
   background: #efefef;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 } 
 
-.info-box__header {
+.InfoBox__Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,54 +51,54 @@
   padding-bottom: 10px;
 }
 
-.info-box__icon {
+.InfoBox__Icon {
   flex: 1 0 25px;
   width: 25px;
   height: 25px;
   margin-right: 15px;
 }
 
-.info-box__icon_type-event {
+.InfoBox__Icon_TypeEvent {
   background: url(../../assets/img/event-icon.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.info-box__icon_type-speaker {
+.InfoBox__Icon_TypeSpeaker {
   background: url(../../assets/img/speakers-icon.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.info-box__title {
+.InfoBox__Title {
   font-size: 18px;
 }
 
-.info-box__subheader {
+.InfoBox__Subheader {
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
 }
 
-.info-box__subheader-box {
+.InfoBox__SubheaderBox {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.info-box__subheader-figure {
+.InfoBox__Subheader_Figure {
   width: 25px;
   height: 25px;
   margin-bottom: 10px;
 }
 
-.info-box__subheader-img {
+.InfoBox__Subheader_Img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.info-box__about {
+.InfoBox__About {
   padding: 25px 0;
   font-size: 15px;
   border-bottom: 1px solid #fff;
@@ -107,17 +106,17 @@
   text-align: center;
 }
 
-.info-box__footer {
+.InfoBox__Footer {
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
 
-.info-box__btn-join {
+.InfoBox__BtnJoin {
   font-weight: bold;
   transition: color 0.3s ease-out;
 }
 
-.info-box__btn-join:hover {
+.InfoBox__BtnJoin:hover {
   color: #58a510;
 }
