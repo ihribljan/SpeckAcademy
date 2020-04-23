@@ -24,23 +24,23 @@
     &:last-of-type {
       margin-right: 0;
     }
+  }
   
-    .CardsContainer__Figure {
+    &__Figure {
       width: 100%;
       height: 250px;
       margin-bottom: 25px;
-  
-      .CardsContainer__Img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
-  }
   
-  .CardsContainer__Title {
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-  }
+    &__Img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    &__Title {
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+    }
 }

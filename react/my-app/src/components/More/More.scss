@@ -4,16 +4,12 @@
   
   &__About {
     margin-bottom: 70px;
-  
-    .SectionMore__Description {
+  }
+
+  &__Description {
       max-width: 750px;
       margin: 0 auto;
       margin-bottom: 40px;
       text-align: center;
-    }
-  
-    .Btn {
-      margin: 0 auto;
-    }
   }
 }

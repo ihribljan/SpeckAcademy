@@ -1,5 +1,3 @@
-/* Section Hero */
-
 .SectionHero {
     position: relative;
     height: 500px;
@@ -22,29 +20,25 @@
     border-radius: 15px;
   }
   
-    &__Title {
-      text-align: center;
-      font-size: 30px;
-      color: #fff;
-      margin-bottom: 20px;
-    }
-  
-    &__Organizer {
-      display: block;
-      text-align: center;
-      font-size: 30px;
-      color: #c59613;
-      margin-bottom: 30px;
-    }
-  
-    &__Date {
-      text-align: center;
-      font-size: 25px;
-      color: #fff;
-      margin-bottom: 20px;
-    }
-  
-      .Btn {
-        margin: 0 auto;
-      }
+  &__Title {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  &__Organizer {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #c59613;
+    margin-bottom: 30px;
+  }
+
+  &__Date {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
 }

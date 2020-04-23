@@ -1,6 +1,5 @@
 import React from 'react';
-import '../../App.scss';
-import '../InfoboxSpeakers/InfoboxSpeakers';
+import '../InfoboxEvents/InfoboxEvents.scss';
 
 //Images
 import ImgLocation from '../../assets/img/location-icon.png';

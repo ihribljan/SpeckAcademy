@@ -1,7 +1,5 @@
 import React from 'react';
-import '../../App.scss';
 import './InfoboxSpeakers.scss';
-
 
 const InfoboxSpeakers = () => {
     return (
